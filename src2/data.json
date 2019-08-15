@@ -1,0 +1,107 @@
+{
+	"employees": {
+		"employeeNumber": {
+			"datatype": "int",
+			"constraint": [
+				"unique", "NOT NULL"
+			]
+		},
+		"birth_date": {
+			"datatype": "date"
+		},
+		"first_name": {
+			"datatype": "string"
+		},
+		"last_name": {
+			"datatype": "string"
+		},
+		"email": {
+			"datatype": "string"
+		},
+		"hire_date": {
+			"datatype": "date"
+		},
+		"primary_key": ["employeeNumber"]
+	},
+
+	"customers": {
+		"customerNumber": {
+			"datatype": "int",
+			"constraint": [
+				"unique", "NOT NULL"
+			]
+		},
+		"customerName": {
+			"datatype": "string"
+		},
+		"primary_key": ["customerNumber"]
+	},
+
+	"payments": {
+		"customerNumber": {
+			"datatype": "int"
+		},
+		"paymentDate": {
+			"datatype": "date"
+		},
+		"foreign_key": [{
+			"id": "customerNumber",
+			"ref_table": "customers",
+			"ref_column": "customerNumber"
+		}]
+	},
+
+	"orders": {
+		"orderNumber": {
+			"datatype": "int",
+			"constraint": [
+				"unique", "NOT NULL"
+			]
+		},
+		"orderDate": {
+			"datatype": "date"
+		},
+		"customerNumber": {
+			"datatype": "int",
+			"foreign_key": {
+				"table": "customers",
+				"id": "customerNumber"
+			}
+		},
+		"primary_key": ["orderNumber"]
+	},
+	"orderdetails": {
+		"orderNumber": {
+			"datatype": "int",
+			"constraint": [
+				"unique", "NOT NULL"
+			]
+		},
+		"productCode": {
+			"datatype": "string",
+			"constraint": [
+				"unique", "NOT NULL"
+			]
+		},
+		"price": {
+			"datatype": "float"
+		},
+		"foreign_key": [{
+			"id": "productCode",
+			"ref_table": "products",
+			"ref_column": "productCode"
+		}]
+	},
+	"products": {
+		"productCode": {
+			"datatype": "int",
+			"constraint": [
+				"unique", "NOT NULL"
+			]
+		},
+		"productName": {
+			"datatype": "string"
+		},
+		"primary_key": ["productCode"]
+	}
+}

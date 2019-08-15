@@ -1,0 +1,8 @@
+{
+    "Student": { "name": "Jack", "email": "jack@xyz.com" },
+    "Student id": 888,
+    "Sponsors": [
+      { "name": "john", "email": "john@@xyz.com" },
+      { "name": "jane", "email": "jane@@xyz.com" }
+    ]
+  }
