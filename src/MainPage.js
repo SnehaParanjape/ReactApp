@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-
+import './index.css';
 import 'react-tabs/style/react-tabs.css'
 
 import FirstPage from './FirstPage'
 import SecondPage from './SecondPage'
+import ThirdPage from "./ThirdPage";
 
 class TabPage extends Component {
 
@@ -13,31 +14,18 @@ class TabPage extends Component {
 		return (
 			<Tabs>
     			<TabList>
-      				<Tab>CSV</Tab>
+    				<Tab>CSV</Tab>
       				<Tab>DB</Tab>
 			    	<Tab>TTL</Tab>
 			    </TabList>
 	    		<TabPanel>
 		    		<FirstPage />
 	    		</TabPanel>
-
 	    		<TabPanel>
 	      			<SecondPage />
 	    		</TabPanel>
-
 			    <TabPanel>
-			    	<p>
-						Protocol:
-						<input type="text" name="protocols" id="protocols" placeholder="file or http or ftp or s3 or hdfs"></input>
-					</p>
-					<p> URL: 
-						<input type="text" name="FileName" id="filename"></input>
-						<input id="csv" type="file"></input>
-					</p>
-					<div id="common_label_div">
-						Load Query (Preview):
-						<input type="text" name="LoadQueryPreview" id="load_query_preview"></input>
-					</div> 
+			    	<ThirdPage />
 			    </TabPanel>
   			</Tabs>
 		)

@@ -1,155 +1,144 @@
-#server_div{
-  margin-left: 75px;
-}
-#server_label_div{
- float: left;
-  font-size: 15px;
-}
-
-#server_text_div{
+#secondPage_first_div{
   float: left;
-  margin-left: 10px;
-  width: 100px;
 }
+  #server_div{
+    margin-left: 75px;
+  }
+    #server_label_div{
+     float: left;
+      font-size: 15px;
+    }
+    #server_text_div{
+      float: left;
+      margin-left: 10px;
+      width: 100px;
+    }
 
-#server_text{
- width:200px;
- height: 40px;   
-}
-#port_div{
-  margin-left: 80px;
-  clear: left;
-}
-#port_label_div{
- float: left;
-  font-size: 15px;
-  margin-left: 10px;
-}
+    #server_text{
+     width:200px;
+     height: 40px;   
+    }
+  #port_div{
+    margin-left: 80px;
+    clear: left;
+  }
+    #port_label_div{
+     float: left;
+      font-size: 15px;
+      margin-left: 10px;
+    }
 
-#port_text_div{
-  float: left;
-  margin-left: 10px;
-  width: 100px;
-}
+    #port_text_div{
+      float: left;
+      margin-left: 10px;
+      width: 100px;
+    }
 
-#port_text{
- width:200px;
- height: 40px;   
-}
-#username_div{
-  clear:  left;
-  margin-left: 40px;
-}
-#username_label_div{
- float: left;
-  font-size: 15px;
-  margin-left: 10px;
-}
+    #port_text{
+     width:200px;
+     height: 40px;   
+    }
+  #username_div{
+    clear:  left;
+    margin-left: 40px;
+  }
+    #username_label_div{
+     float: left;
+      font-size: 15px;
+      margin-left: 10px;
+    }
 
-#username_text_div{
-  float: left;
-  margin-left: 10px;
-  width: 100px;
-}
+    #username_text_div{
+      float: left;
+      margin-left: 10px;
+      width: 100px;
+    }
 
-#username_text{
- width:200px;
- height: 40px;   
-}
-#password_div{
-  margin-left: 43px;
-  clear: left;
-}
-#password_label_div{
- float: left;
-  font-size: 15px;
-  margin-left: 10px;
-}
+    #username_text{
+     width:200px;
+     height: 40px;   
+    }
+  #password_div{
+    margin-left: 43px;
+    clear: left;
+  }
+    #password_label_div{
+     float: left;
+      font-size: 15px;
+      margin-left: 10px;
+    }
 
-#password_text_div{
-  float: left;
-  margin-left: 10px;
-  width: 100px;
-}
+    #password_text_div{
+      float: left;
+      margin-left: 10px;
+      width: 100px;
+    }
 
-#password_text{
- width:200px;
- height: 40px;   
+    #password_text{
+     width:200px;
+     height: 40px;   
+    }
+  #dbName_div{
+    clear: left;
+  }
+    #dbName_label_div{
+     float: left;
+      font-size: 15px;
+      margin-left: 10px;
+    }
+    #dbName_text_div{
+      float: left;
+      margin-left: 10px;
+      width: 100px;
+    }
+    #dbName_text{
+     width:200px;
+     height: 40px;   
+    }
+  #secondPage_browse_btn_div{
+    margin-left: 133px;
+    clear: left;
+  }
+    #secondPage_browse_btn{
+      background-color: #0097A7;
+      color: white;
+      border: none;
+      width: 100px;
+    }
+#secondPage_second_div{
+float: left;
+margin-left: 10px;
 }
-
-#dbName_div{
-  clear: left;
-}
-#dbName_label_div{
- float: left;
-  font-size: 15px;
-  margin-left: 10px;
-}
-
-#dbName_text_div{
-  float: left;
-  margin-left: 10px;
-  width: 100px;
-}
-
-#dbName_text{
- width:200px;
- height: 40px;   
-}
-#secondpage_browse_btn_div{
-  clear:  left;
-  margin-left: 135px;
-   margin-right: 200px;
-}
-
-#secondpage_browse_btn{
-  background-color: #0097A7;
-  color: white;
-  border: none;
-  width: 100px;
-}
-#first_div{
-  display: block;
-  
-
-}
-#second_div{
-  display: block;
-  
-
-}
-
-#third_div{
+#secondPage_third_div{
   display: block;
   clear: left;
-  
 }
+
+#secondPage_fourth_div{
+  display: block;
+  clear: left;
+}
+  #secondPage_generate_table_query_div{
+    float: left;
+    margin-left: 30px;
+  }
+    #secondPage_table_query_button{
+      background-color: #0097A7;
+      color: white;
+      border: none;
+    }
+
+  #secondPage_generate_insert_query_div{
+    float: left;
+    margin-left: 40px;  
+  }
+    #secondPage_insert_query_button{
+      background-color: #0097A7;
+      color: white;
+      border: none;
+    }
 #common_label_div{
- 
   font-size: 15px;
-}
-
-#secondPage_generate_table_query_div{
-  float: left;
-  margin-left: 30px;
-}
-
-#secondPage_table_query_button{
-   background-color: #0097A7;
-  color: white;
-  border: none;
-}
-
-#secondPage_generate_insert_query_div{
-  float: left;
-margin-left: 40px;
-  
-}
-
-#secondPage_insert_query_button{
-   background-color: #0097A7;
-  color: white;
-  border: none;
 }
 
 #load_query_preview_div{
@@ -157,39 +146,36 @@ margin-left: 40px;
   margin-right: 200px;
   display: block;
 }
-#load_query_preview_label{
-  float: left;
-  font-size: 15px;
-}
-#load_query_preview_text_div{
-  float: left;
-}
-#load_query_preview_text{
-  width: 550px;
-  overflow: scroll;
-  resize: both;
-}
+  #load_query_preview_label{
+    float: left;
+    font-size: 15px;
+  }
+  #load_query_preview_text_div{
+    float: left;
+  }
+  #load_query_preview_text{
+    width: 550px;
+    overflow: scroll;
+    resize: both;
+  }
 #save_query_div{
   clear: left;
- float: left;
- margin-left: 230px;
+  float: left;
+  margin-left: 230px;
 }
 
-#save_query_button{
-  background-color: #0097A7;
-  color: white;
-  border: none;
-}
-#inputFileNameToSaveAs {
-  margin-left: 10px;
-}
+  #save_query_button{
+    background-color: #0097A7;
+    color: white;
+    border: none;
+  }
 #run_query_div{
   float: left;
   margin-left: 43px;
 }
 
-#run_query_button{
-  background-color: #0097A7;
-  color: white;
-  border: none;
-}
+  #run_query_button{
+    background-color: #0097A7;
+    color: white;
+    border: none;
+  }

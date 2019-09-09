@@ -1,0 +1,44 @@
+#load_options_div{
+    margin-left: 30px;
+
+}
+#load_options_label{
+    float: left;
+}
+#load_options_select{
+    width:100px;
+    float: left;
+    margin-left: 10px;
+}
+#url_div{
+    
+    clear: left;
+    margin-left: 30px;
+}
+#url_textbox{
+    width:300px;
+    height: 40px;
+    margin-left: 10px;
+}
+#graph_div{
+    margin-left: 30px;
+}
+#graph_label_div{
+    float: left;
+    margin-right: 10px;
+}
+#graph_textbox{
+    width:100px;
+    height: 40px;
+}
+#generate_load_query_div{
+margin-left: 30px;
+}
+#load_query_button{
+    background-color: #0097A7;
+    color: white;
+    border: none;
+}
+#load_query_preview_div{
+    margin-left: 30px;
+}
